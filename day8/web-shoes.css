@@ -1,0 +1,171 @@
+
+*{
+    margin:0;
+    padding:0;
+}
+ul,li{
+    list-style: none;
+}
+
+.cell{
+    float:left;
+}
+.row{
+    display: block;
+    clear: both;
+    content: "";
+}
+
+.basic-menu{
+  font-size:large;
+  text-align: center;
+  color: white;
+  padding-top:30px;
+  box-sizing: border-box;
+}
+
+.wrap-column{
+    width: 1200px;
+    height: 100px;
+    background-color:red;
+    margin: 0 auto;
+}
+
+.wrap-column>.logo{
+    width:300px;
+    height:100px;
+    background-color: blueviolet;
+    font-size: large;
+    text-align: center;
+    color:white;
+    padding-top: 30px;
+    box-sizing: border-box;
+}
+
+.wrap-column>.menu-box{
+    width:500px;
+    height: 100px;
+    background-color: blueviolet;
+    margin-left: 400px;
+}
+
+.wrap-column>.menu-box>.menu1{
+    width:125px;
+    height: 100px;
+    background-color: blueviolet;
+    transition:0.5;   
+}
+
+.wrap-column>.menu-box>.menu1:hover{
+    background-color: white;
+    color:black;
+}
+
+.wrap-column>.menu-box>.menu2{
+    width:125px;
+    height: 100px;
+    background-color: blueviolet;
+    transition:0.5;   
+}
+
+.wrap-column>.menu-box>.menu2:hover{
+    background-color: white;
+    color:black;
+}
+
+.wrap-column>.menu-box>.menu3{
+    width:125px;
+    height: 100px;
+    background-color: blueviolet;
+    transition:0.5;   
+}
+
+.wrap-column>.menu-box>.menu3:hover{
+    background-color: white;
+    color:black;
+}
+
+.wrap-column>.menu-box>.menu4{
+    width:125px;
+    height: 100px;
+    background-color: blueviolet;
+    transition:0.5;   
+}
+
+.wrap-column>.menu-box>.menu4:hover{
+    background-color: white;
+    color:black;
+}
+
+
+.cloth-img{
+    background-image: url("closet-912694_1920.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    position:relative;
+}
+
+.cloth-img>.main-visual{
+    width:250px;
+    height: 170px;
+    background-color: gray;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    border:2px solid rgb(61, 57, 57);
+    text-align: center;
+    padding-top: 30px;
+    box-sizing: border-box;
+}
+
+.body-box{
+    width:1200px;
+    height: 1380px;
+    background-color: white;
+    margin: 0 auto;
+}
+
+.body-box>.product-box{
+    background-color: black;
+    width:calc( ( 100% - 30px ) / 4 ); /*이거 뛰어쓰기 주의!!*/
+    height: 450px;
+    padding:10px 15px;
+    box-sizing: border-box;
+    margin-right: 10px;
+    margin-top: 10px;
+    
+}
+
+.body-box>.product-box:nth-child(4n){
+    margin-right: 0px;
+}
+
+.body-box>.product-box>.product-img-box>img{
+  width:100%;
+  display: block;
+}
+
+.body-box>.product-box>.product-text-box{
+    text-align: center;
+    color:white;
+    /* padding-top: 10px; */
+    margin-top: 10px;
+    box-sizing: border-box;
+}
+
+.footer{
+    width:100%;
+    height: 200px;
+    background-color:#ddd;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+
+
+
+

@@ -1,0 +1,44 @@
+.wrap{
+    width:500px;
+    height: 500px;
+    border: 2px solid red;
+    margin: 0 auto;
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+.wrap>.choose>img{
+  width:100%;
+  transition:1s;
+}
+
+.wrap:hover>.choose>img{
+    transform:rotate(180deg);
+}
+
+.wrap>.choose2>img{
+    width:100%;
+    transition:1s;
+}
+
+.wrap:hover>.choose2>img{
+    transform:translateX(500px) ;
+}
+
+.wrap>.choose3>img{
+    width: 100%;
+    transition:1s;
+}
+
+.wrap:hover>.choose3>img{
+    transform:scale(1.2);
+}
+
+.wrap>.choose4>img{
+    width: 100%;
+    transition:1s;
+}
+
+.wrap:hover>.choose4>img{
+    transform:skew(45deg,45deg);
+}
